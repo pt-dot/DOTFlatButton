@@ -29,6 +29,8 @@ it, simply add the following line to your Podfile:
 pod "DOTFlatButton"
 ```
 
+Select your UIButton and on Custom Class, Input DOTFlat...<Color Name>
+
 ## Author
 
 balitax, cahyo.mamen@gmail.com
