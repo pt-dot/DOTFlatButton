@@ -1,0 +1,16 @@
+PODS:
+  - DOTFlatButton (0.1.0)
+
+DEPENDENCIES:
+  - DOTFlatButton (from `../`)
+
+EXTERNAL SOURCES:
+  DOTFlatButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DOTFlatButton: 320d8f04c974c159854a8c646833471715bc9c67
+
+PODFILE CHECKSUM: a7ea1d11a78bc96fae8962c76a6ade26f087d7bd
+
+COCOAPODS: 1.0.1
