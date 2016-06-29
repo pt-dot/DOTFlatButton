@@ -29,7 +29,7 @@ it, simply add the following line to your Podfile:
 pod "DOTFlatButton"
 ```
 
-Select your UIButton and on Custom Class, Input DOTFlatColor Name
+Select your UIButton and on Custom Class, Input DOTFlatButton_Color_Name
 
 ## Author
 
