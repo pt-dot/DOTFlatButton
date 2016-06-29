@@ -1,6 +1,5 @@
 # DOTFlatButton
 
-[![CI Status](http://img.shields.io/travis/balitax/DOTFlatButton.svg?style=flat)](https://travis-ci.org/balitax/DOTFlatButton)
 [![Version](https://img.shields.io/cocoapods/v/DOTFlatButton.svg?style=flat)](http://cocoapods.org/pods/DOTFlatButton)
 [![License](https://img.shields.io/cocoapods/l/DOTFlatButton.svg?style=flat)](http://cocoapods.org/pods/DOTFlatButton)
 [![Platform](https://img.shields.io/cocoapods/p/DOTFlatButton.svg?style=flat)](http://cocoapods.org/pods/DOTFlatButton)

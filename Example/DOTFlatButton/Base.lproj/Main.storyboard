@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="DOTFlatButton_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -15,7 +16,117 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="seQ-dH-k0W" customClass="DOTFlatButtonEmerald" customModule="DOTFlatButton">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="GWe-Ec-mvt"/>
+                                    <constraint firstAttribute="height" constant="50" id="YDA-b7-pLe"/>
+                                </constraints>
+                                <state key="normal" title="DOT CLICK"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="GWe-Ec-mvt"/>
+                                        <exclude reference="YDA-b7-pLe"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="GWe-Ec-mvt"/>
+                                        <include reference="YDA-b7-pLe"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TJU-fw-QA9" customClass="DOTFlatButtonAlizarin" customModule="DOTFlatButton">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="Iob-S9-Cxl"/>
+                                    <constraint firstAttribute="height" constant="50" id="NT9-jl-Cfe"/>
+                                </constraints>
+                                <state key="normal" title="DOT CLICK"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Iob-S9-Cxl"/>
+                                        <exclude reference="NT9-jl-Cfe"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="Iob-S9-Cxl"/>
+                                        <include reference="NT9-jl-Cfe"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mta-Ur-i9t" customClass="DOTFlatButtonConcrete" customModule="DOTFlatButton">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="gjx-HT-ia0"/>
+                                    <constraint firstAttribute="height" constant="50" id="k5i-Is-FrA"/>
+                                </constraints>
+                                <state key="normal" title="DOT CLICK"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="gjx-HT-ia0"/>
+                                        <exclude reference="k5i-Is-FrA"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="gjx-HT-ia0"/>
+                                        <include reference="k5i-Is-FrA"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Mta-Ur-i9t" firstAttribute="leading" secondItem="TJU-fw-QA9" secondAttribute="leading" id="Cdy-wB-eBE"/>
+                            <constraint firstItem="seQ-dH-k0W" firstAttribute="top" secondItem="TJU-fw-QA9" secondAttribute="bottom" constant="46" id="FOd-lX-DpQ">
+                                <variation key="heightClass=regular-widthClass=compact" constant="50"/>
+                            </constraint>
+                            <constraint firstItem="Mta-Ur-i9t" firstAttribute="trailing" secondItem="TJU-fw-QA9" secondAttribute="trailing" id="eYp-Lp-odX"/>
+                            <constraint firstItem="seQ-dH-k0W" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="ieQ-dl-BYS"/>
+                            <constraint firstItem="TJU-fw-QA9" firstAttribute="trailing" secondItem="seQ-dH-k0W" secondAttribute="trailing" id="nfm-eR-dxb"/>
+                            <constraint firstItem="Mta-Ur-i9t" firstAttribute="top" secondItem="seQ-dH-k0W" secondAttribute="bottom" constant="52" id="pHY-ua-wf2">
+                                <variation key="heightClass=regular-widthClass=compact" constant="50"/>
+                            </constraint>
+                            <constraint firstItem="seQ-dH-k0W" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="sDN-Kx-hg6"/>
+                            <constraint firstItem="TJU-fw-QA9" firstAttribute="leading" secondItem="seQ-dH-k0W" secondAttribute="leading" id="xSf-aF-fbB"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="seQ-dH-k0W"/>
+                                <exclude reference="TJU-fw-QA9"/>
+                                <exclude reference="Mta-Ur-i9t"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="nfm-eR-dxb"/>
+                                <exclude reference="xSf-aF-fbB"/>
+                                <exclude reference="FOd-lX-DpQ"/>
+                                <exclude reference="ieQ-dl-BYS"/>
+                                <exclude reference="sDN-Kx-hg6"/>
+                                <exclude reference="Cdy-wB-eBE"/>
+                                <exclude reference="eYp-Lp-odX"/>
+                                <exclude reference="pHY-ua-wf2"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="seQ-dH-k0W"/>
+                                <include reference="TJU-fw-QA9"/>
+                                <include reference="Mta-Ur-i9t"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="nfm-eR-dxb"/>
+                                <include reference="xSf-aF-fbB"/>
+                                <include reference="FOd-lX-DpQ"/>
+                                <include reference="ieQ-dl-BYS"/>
+                                <include reference="sDN-Kx-hg6"/>
+                                <include reference="Cdy-wB-eBE"/>
+                                <include reference="eYp-Lp-odX"/>
+                                <include reference="pHY-ua-wf2"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
