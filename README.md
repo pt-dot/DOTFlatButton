@@ -11,7 +11,7 @@ Easy to use simple Flat UIButton for iOS Swift.
 ![alt tag](https://raw.githubusercontent.com/pt-dot/DOTFlatButton/master/images/ss2.png)
 
 
-![alt tag](https://cloud.githubusercontent.com/assets/1490342/16445527/3cb22914-3e0d-11e6-9548-78052b5205da.png)
+![alt tag](https://cloud.githubusercontent.com/assets/1490342/16445576/7bfb09ba-3e0d-11e6-90dd-f73d205d8bc5.png)
 
 ## Example
 
