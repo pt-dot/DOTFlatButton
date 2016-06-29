@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.description      = 'Easy to use Flat UIButton Flat for iOS. Simple flat button for swift'
 
   s.homepage         = 'https://github.com/pt-dot/DOTFlatButton'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots      = 'https://raw.githubusercontent.com/pt-dot/DOTFlatButton/master/images/ss1.png', 'https://raw.githubusercontent.com/pt-dot/DOTFlatButton/master/images/ss2.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'balitax' => 'cahyo.mamen@gmail.com' }
   s.source           = { :git => 'https://github.com/pt-dot/DOTFlatButton.git', :tag => s.version.to_s }
