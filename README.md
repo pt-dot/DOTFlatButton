@@ -8,8 +8,10 @@
 
 Easy to use simple Flat UIButton for iOS Swift.
 
-![alt tag](https://raw.githubusercontent.com/pt-dot/DOTFlatButton/master/images/ss2)
+![alt tag](https://raw.githubusercontent.com/pt-dot/DOTFlatButton/master/images/ss2.png)
 
+
+![alt tag](https://raw.githubusercontent.com/pt-dot/DOTFlatButton/master/images/ss1.png)
 
 ## Example
 
