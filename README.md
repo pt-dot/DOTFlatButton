@@ -11,7 +11,7 @@ Easy to use simple Flat UIButton for iOS Swift.
 ![alt tag](https://raw.githubusercontent.com/pt-dot/DOTFlatButton/master/images/ss2.png)
 
 
-![alt tag](https://raw.githubusercontent.com/pt-dot/DOTFlatButton/master/images/ss1.png)
+![alt tag](https://cloud.githubusercontent.com/assets/1490342/16445527/3cb22914-3e0d-11e6-9548-78052b5205da.png)
 
 ## Example
 
@@ -29,7 +29,7 @@ it, simply add the following line to your Podfile:
 pod "DOTFlatButton"
 ```
 
-Select your UIButton and on Custom Class, Input DOTFlat...<Color Name>
+Select your UIButton and on Custom Class, Input DOTFlatColor Name
 
 ## Author
 
