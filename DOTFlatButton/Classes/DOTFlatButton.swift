@@ -28,7 +28,6 @@ extension UIColor {
 
 /// TURQUOISE COLOR
 class DOTFlatButtonTurQuoise: UIButton {
-    
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.layer.cornerRadius = 0.0
@@ -38,20 +37,10 @@ class DOTFlatButtonTurQuoise: UIButton {
         self.backgroundColor = UIColor(netHex: 0x1abc9c)
         self.tintColor = UIColor.whiteColor()
     }
-    
-    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        self.layer.opacity = 0.8
-    }
-    
-    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        self.layer.opacity = 1
-    }
-    
 }
 
 /// EMERALD COLOR
 class DOTFlatButtonEmerald: UIButton {
-    
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.layer.cornerRadius = 0.0
@@ -61,20 +50,10 @@ class DOTFlatButtonEmerald: UIButton {
         self.backgroundColor = UIColor(netHex: 0x2ecc71)
         self.tintColor = UIColor.whiteColor()
     }
-    
-    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        self.layer.opacity = 0.8
-    }
-    
-    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        self.layer.opacity = 1
-    }
-    
 }
 
 /// PITER REVER COLOR
 class DOTFlatButtonPeterRiver: UIButton {
-    
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.layer.cornerRadius = 0.0
@@ -84,20 +63,10 @@ class DOTFlatButtonPeterRiver: UIButton {
         self.backgroundColor = UIColor(netHex: 0x3498db)
         self.tintColor = UIColor.whiteColor()
     }
-    
-    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        self.layer.opacity = 0.8
-    }
-    
-    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        self.layer.opacity = 1
-    }
-    
 }
 
 /// AMETHYST COLOR
 class DOTFlatButtonAmethyst: UIButton {
-    
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.layer.cornerRadius = 0.0
@@ -107,20 +76,10 @@ class DOTFlatButtonAmethyst: UIButton {
         self.backgroundColor = UIColor(netHex: 0x9b59b6)
         self.tintColor = UIColor.whiteColor()
     }
-    
-    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        self.layer.opacity = 0.8
-    }
-    
-    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        self.layer.opacity = 1
-    }
-    
 }
 
 /// WET ASPALT COLOR
 class DOTFlatButtonWetAspalt: UIButton {
-    
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.layer.cornerRadius = 0.0
@@ -130,20 +89,10 @@ class DOTFlatButtonWetAspalt: UIButton {
         self.backgroundColor = UIColor(netHex: 0x34495e)
         self.tintColor = UIColor.whiteColor()
     }
-    
-    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        self.layer.opacity = 0.8
-    }
-    
-    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        self.layer.opacity = 1
-    }
-    
 }
 
 /// GREEN SEA COLOR
 class DOTFlatButtonGreenSea: UIButton {
-    
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.layer.cornerRadius = 0.0
@@ -153,20 +102,10 @@ class DOTFlatButtonGreenSea: UIButton {
         self.backgroundColor = UIColor(netHex: 0x16a085)
         self.tintColor = UIColor.whiteColor()
     }
-    
-    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        self.layer.opacity = 0.8
-    }
-    
-    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        self.layer.opacity = 1
-    }
-    
 }
 
 /// NEPHRITIS COLOR
 class DOTFlatButtonNephRitis: UIButton {
-    
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.layer.cornerRadius = 0.0
@@ -176,20 +115,10 @@ class DOTFlatButtonNephRitis: UIButton {
         self.backgroundColor = UIColor(netHex: 0x27ae60)
         self.tintColor = UIColor.whiteColor()
     }
-    
-    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        self.layer.opacity = 0.8
-    }
-    
-    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        self.layer.opacity = 1
-    }
-    
 }
 
 /// BELIZE HOLE COLOR
 class DOTFlatButtonBelizeHole: UIButton {
-    
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.layer.cornerRadius = 0.0
@@ -199,20 +128,10 @@ class DOTFlatButtonBelizeHole: UIButton {
         self.backgroundColor = UIColor(netHex: 0x2980b9)
         self.tintColor = UIColor.whiteColor()
     }
-    
-    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        self.layer.opacity = 0.8
-    }
-    
-    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        self.layer.opacity = 1
-    }
-    
 }
 
 /// WISTERIA COLOR
 class DOTFlatButtonWisteria: UIButton {
-    
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.layer.cornerRadius = 0.0
@@ -222,20 +141,10 @@ class DOTFlatButtonWisteria: UIButton {
         self.backgroundColor = UIColor(netHex: 0x8e44ad)
         self.tintColor = UIColor.whiteColor()
     }
-    
-    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        self.layer.opacity = 0.8
-    }
-    
-    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        self.layer.opacity = 1
-    }
-    
 }
 
 /// MIDNIGHT BLUE COLOR
 class DOTFlatButtonMidnightBlue: UIButton {
-    
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.layer.cornerRadius = 0.0
@@ -245,20 +154,10 @@ class DOTFlatButtonMidnightBlue: UIButton {
         self.backgroundColor = UIColor(netHex: 0x2c3e50)
         self.tintColor = UIColor.whiteColor()
     }
-    
-    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        self.layer.opacity = 0.8
-    }
-    
-    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        self.layer.opacity = 1
-    }
-    
 }
 
 /// SUN FLOWER COLOR
 class DOTFlatButtonSunFLower: UIButton {
-    
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.layer.cornerRadius = 0.0
@@ -268,20 +167,10 @@ class DOTFlatButtonSunFLower: UIButton {
         self.backgroundColor = UIColor(netHex: 0xf1c40f)
         self.tintColor = UIColor.whiteColor()
     }
-    
-    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        self.layer.opacity = 0.8
-    }
-    
-    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        self.layer.opacity = 1
-    }
-    
 }
 
 /// CARROT COLOR
 class DOTFlatButtonCarrot: UIButton {
-    
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.layer.cornerRadius = 0.0
@@ -291,20 +180,10 @@ class DOTFlatButtonCarrot: UIButton {
         self.backgroundColor = UIColor(netHex: 0xe67e22)
         self.tintColor = UIColor.whiteColor()
     }
-    
-    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        self.layer.opacity = 0.8
-    }
-    
-    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        self.layer.opacity = 1
-    }
-    
 }
 
 /// ALIZARIN COLOR
 class DOTFlatButtonAlizarin: UIButton {
-    
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.layer.cornerRadius = 0.0
@@ -314,20 +193,10 @@ class DOTFlatButtonAlizarin: UIButton {
         self.backgroundColor = UIColor(netHex: 0xe74c3c)
         self.tintColor = UIColor.whiteColor()
     }
-    
-    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        self.layer.opacity = 0.8
-    }
-    
-    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        self.layer.opacity = 1
-    }
-    
 }
 
 /// CLOUDS COLOR
 class DOTFlatButtonClouds: UIButton {
-    
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.layer.cornerRadius = 0.0
@@ -337,20 +206,10 @@ class DOTFlatButtonClouds: UIButton {
         self.backgroundColor = UIColor(netHex: 0xecf0f1)
         self.tintColor = UIColor.whiteColor()
     }
-    
-    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        self.layer.opacity = 0.8
-    }
-    
-    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        self.layer.opacity = 1
-    }
-    
 }
 
 /// CONCRETE COLOR
 class DOTFlatButtonConcrete: UIButton {
-    
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.layer.cornerRadius = 0.0
@@ -360,20 +219,10 @@ class DOTFlatButtonConcrete: UIButton {
         self.backgroundColor = UIColor(netHex: 0x95a5a6)
         self.tintColor = UIColor.whiteColor()
     }
-    
-    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        self.layer.opacity = 0.8
-    }
-    
-    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        self.layer.opacity = 1
-    }
-    
 }
 
 /// ORANGE COLOR
 class DOTFlatButtonOrange: UIButton {
-    
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.layer.cornerRadius = 0.0
@@ -383,20 +232,10 @@ class DOTFlatButtonOrange: UIButton {
         self.backgroundColor = UIColor(netHex: 0xf39c12)
         self.tintColor = UIColor.whiteColor()
     }
-    
-    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        self.layer.opacity = 0.8
-    }
-    
-    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        self.layer.opacity = 1
-    }
-    
 }
 
 /// PUMPKIN COLOR
 class DOTFlatButtonPumpkin: UIButton {
-    
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.layer.cornerRadius = 0.0
@@ -406,20 +245,10 @@ class DOTFlatButtonPumpkin: UIButton {
         self.backgroundColor = UIColor(netHex: 0xd35400)
         self.tintColor = UIColor.whiteColor()
     }
-    
-    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        self.layer.opacity = 0.8
-    }
-    
-    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        self.layer.opacity = 1
-    }
-    
 }
 
 /// POMEGRENATE COLOR
 class DOTFlatButtonPomeGrenate: UIButton {
-    
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.layer.cornerRadius = 0.0
@@ -429,20 +258,10 @@ class DOTFlatButtonPomeGrenate: UIButton {
         self.backgroundColor = UIColor(netHex: 0xc0392b)
         self.tintColor = UIColor.whiteColor()
     }
-    
-    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        self.layer.opacity = 0.8
-    }
-    
-    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        self.layer.opacity = 1
-    }
-    
 }
 
 /// SILVER COLOR
 class DOTFlatButtonSilver: UIButton {
-    
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.layer.cornerRadius = 0.0
@@ -452,20 +271,10 @@ class DOTFlatButtonSilver: UIButton {
         self.backgroundColor = UIColor(netHex: 0xbdc3c7)
         self.tintColor = UIColor.whiteColor()
     }
-    
-    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        self.layer.opacity = 0.8
-    }
-    
-    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        self.layer.opacity = 1
-    }
-    
 }
 
 /// ASBESTOS COLOR
 class DOTFlatButtonAsbestos: UIButton {
-    
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.layer.cornerRadius = 0.0
@@ -475,13 +284,4 @@ class DOTFlatButtonAsbestos: UIButton {
         self.backgroundColor = UIColor(netHex: 0x7f8c8d)
         self.tintColor = UIColor.whiteColor()
     }
-    
-    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        self.layer.opacity = 0.8
-    }
-    
-    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        self.layer.opacity = 1
-    }
-    
 }
