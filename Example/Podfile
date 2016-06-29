@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DOTFlatButton_Example' do
+  pod 'DOTFlatButton', :path => '../'
+
+  target 'DOTFlatButton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
