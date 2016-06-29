@@ -4,11 +4,19 @@
 [![License](https://img.shields.io/cocoapods/l/DOTFlatButton.svg?style=flat)](http://cocoapods.org/pods/DOTFlatButton)
 [![Platform](https://img.shields.io/cocoapods/p/DOTFlatButton.svg?style=flat)](http://cocoapods.org/pods/DOTFlatButton)
 
+#Overview
+
+Easy to use simple Flat UIButton for iOS Swift.
+
+![alt tag](https://raw.githubusercontent.com/pt-dot/DOTFlatButton/master/images/ss2)
+
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+* iOS8
 
 ## Installation
 
@@ -22,6 +30,7 @@ pod "DOTFlatButton"
 ## Author
 
 balitax, cahyo.mamen@gmail.com
+
 
 ## License
 
