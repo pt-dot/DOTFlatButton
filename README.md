@@ -18,7 +18,7 @@ Easy to use simple Flat UIButton for iOS Swift.
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
-* iOS8
+* iOS 8
 
 ## Installation
 
